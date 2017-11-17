@@ -1,2 +1,2 @@
 # BCPprogramming.github.io
-Programming club website
+BCP Programming Club website
