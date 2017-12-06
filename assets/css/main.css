@@ -2872,6 +2872,7 @@
 		background-image: url("images/bellarmine.jpg");
 		background-position: 30%;
 		background-size: cover;
+
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -2993,8 +2994,12 @@
         	top: 50%;
         	left: 50%;
         	margin-right: -50%;
-       		transform: translate(-50%, -50%);
+       		transform: translate(-50%, -40%);
 			z-index: 1;
+		}
+
+		#header .inner .icons {
+			transform: translate(0%, 150%);
 		}
 
 
@@ -3188,6 +3193,7 @@
 			#footer {
 				padding: 4em 0 4em 0 ;
 				background-attachment: scroll;
+				background: #4686a0;
 			}
 
 	}
@@ -3332,6 +3338,9 @@
 				padding: 3em 1.5em 3em 1.5em ;
 			}
 
+			#header .inner .icons {
+			transform: translate(0%, 0%);
+		}
 	}
 
 /* XSmall */
@@ -3417,7 +3426,6 @@
 						#footer .copyright li:first-child {
 							margin-top: 0;
 						}
-
 	}
 
 /* XXSmall */
@@ -3448,4 +3456,7 @@
 				padding: 2em 1em 2em 1em ;
 			}
 
+			#header .inner .icons {
+				transform: translate(0%, 0%);
+			}
 	}
